@@ -141,16 +141,16 @@ byte mac[] = {
 char device_name[DEVICE_NAME_MAX_LENGTH + 1]; // +1 for terminating char
 
 
-#define THISIP_1 10
-#define THISIP_2 0
-#define THISIP_3 1
-#define THISIP_4 240
+#define THISIP_1 192
+#define THISIP_2 168
+#define THISIP_3 0
+#define THISIP_4 177
 
 // remote server IP is put here:
-#define SERVERIP_1 10
-#define SERVERIP_2 0
-#define SERVERIP_3 1
-#define SERVERIP_4 253
+#define SERVERIP_1 192
+#define SERVERIP_2 168
+#define SERVERIP_3 0
+#define SERVERIP_4 1
 
 // fill in an available IP address on your network here,
 // for manual configuration:
